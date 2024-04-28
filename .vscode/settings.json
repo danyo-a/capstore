@@ -1,0 +1,6 @@
+{
+    "search.useParentIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true,
+    "git.verboseCommit": true,
+    "git.terminalGitEditor": true
+}
