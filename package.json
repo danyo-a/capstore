@@ -94,10 +94,12 @@
     "wrap-ansi-cjs": "^7.0.0",
     "yaml": "^2.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.14"
+  },
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/styles.css --watch",
-    "prettier":"npx prettier --write '**/*.html"
+    "prettier": "npx prettier --write ./build/*.html"
   },
   "keywords": [],
   "author": "",
